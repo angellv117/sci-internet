@@ -1,0 +1,54 @@
+{
+    "productos": [
+        {
+            "nombre": "Figura Vegerra Majin",
+            "precio": 650,
+            "imagen": "/Productos/p1.jpeg"
+        },
+        {
+            "nombre": "Figura Mario Bros",
+            "precio": 190,
+            "imagen": "/Productos/p2.jpeg"
+        },
+        {
+            "nombre": "Bocina Moreka",
+            "precio": 1800,
+            "imagen": "/Productos/p3.jpeg"
+        },
+        {
+            "nombre": "Audifonos Moreka",
+            "precio": 450,
+            "imagen": "/Productos/p4.jpeg"
+        },
+        {
+            "nombre": "Figura Satoru Gojo",
+            "precio": 650,
+            "imagen": "/Productos/p5.jpeg"
+        },
+        {
+            "nombre": "Laptop Perrona sisi",
+            "precio": 17000,
+            "imagen": "/Productos/p6.jpeg"
+        },
+        {
+            "nombre": "Audifonos Colores",
+            "precio": 150,
+            "imagen": "/Productos/p7.jpeg"
+        },
+        {
+            "nombre": "Androide Sukulenta",
+            "precio": 700,
+            "imagen": "/Productos/p8.jpeg"
+        },
+        {
+            "nombre": "Figura Vegito",
+            "precio": 650,
+            "imagen": "/Productos/p9.jpeg"
+        },
+        {
+            "nombre": "Lampara Ajolotito",
+            "precio": 150,
+            "imagen": "/Productos/p10.jpeg"
+        }
+    ]
+}
