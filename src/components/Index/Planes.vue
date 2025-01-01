@@ -1,5 +1,5 @@
 <template>
-    <div class=" justify-center items-center container mx-auto px-4 py-12" data-aos="fade-right" data-aos-delay="100">
+    <div id="planes" class=" justify-center items-center container mx-auto px-4 py-12" data-aos="fade-right" data-aos-delay="100">
         <h1 class="text-4xl md:text-5xl font-bold leading-tight text-center lg:text-left">
             <span class="text-indigo-800 uppercase tracking-widest">Conoce nuestros planes</span>
         </h1>

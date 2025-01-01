@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4 py-12" data-aos="fade-up">
+  <div id="quienesSomos" class="container mx-auto px-4 py-12" data-aos="fade-up" data-aos-delay="100">
     <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
       <!-- Left content -->
       <div class="w-full lg:w-1/3 space-y-6">

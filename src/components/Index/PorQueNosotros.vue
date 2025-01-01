@@ -1,5 +1,5 @@
 <template>
-    <div class="  relative bg-gray-900 text-white py-16 px-4 overflow-hidden" data-aos="fade-up">
+    <div id="beneficios" class="  relative bg-gray-900 text-white py-16 px-4 overflow-hidden" data-aos="fade-up">
       <!-- Contenedor principal -->
       <div class=" flex flex-col  justify-center items-center md:justify-start md:items-start m-5 relative z-10">
         <!-- Título principal -->
