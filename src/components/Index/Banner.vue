@@ -26,7 +26,7 @@
                                     clip-rule="evenodd"></path>
                             </svg>
                         </a>
-                        <a href="planes"
+                        <a href="#planes"
                             class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-900">
                             <p class="text-white block md:hidden">Ver más</p>
                             <p class="text-white  hidden md:block">Planes de internet</p>
