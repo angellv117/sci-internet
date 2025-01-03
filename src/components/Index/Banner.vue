@@ -1,5 +1,5 @@
 <template>
-    <div class=" min-h-screen flex flex-col md:flex-row md:justify-center md:items-start bg-sky-600">
+    <div class=" min-h-screen flex flex-col md:flex-row md:justify-center md:items-start bg-sky-600 ">
         <section class=" flex justify-center items-center" data-aos="fade-up">
             <div class="grid  px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                 <div class="flex flex-col justify-center items-center lg:col-span-7">
@@ -16,7 +16,7 @@
                     </p>
                     <div class="flex justify-center items-center">
                         <a href="#"
-                            class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                            class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">
                             <p class="text-white block md:hidden">Conocenos</p>
                             <p class="text-white  hidden md:block">Conoce nuestros planes</p>
                             <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
@@ -38,7 +38,17 @@
                 </div>
             </div>
         </section>
+        <!-- Overlay de fondo oscuro -->
+      <!-- <div class="absolute inset-0 bg-black/50 -z-10"></div> -->
+      <!-- Imagen de fondo -->
+      <!-- <img 
+        src="/Servicios/basico.webp" 
+        alt="Background" 
+        class="absolute inset-0 w-full h-full object-cover -z-20"
+      > -->
+    
     </div>
+    
 </template>
 
 <script>

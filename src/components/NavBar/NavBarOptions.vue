@@ -16,14 +16,14 @@
         <a href="#contacto" @click="toggleMenu" class="block py-2 px-3 text-white hover:text-gray-400">Contáctanos</a>
     </li>
     <li v-if="admin" class="relative">
-        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" @click="toggleDropdown" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800" type="button">Administrador
+        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" @click="toggleDropdown" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center " type="button">Administrador
             <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
             </svg>
         </button>
 
         <!-- Dropdown menu -->
-        <ul v-if="showDropdown" class="absolute z-10 text-black bg-white rounded-lg shadow w-44 top-full mt-2 right-0 dark:bg-gray-700" aria-labelledby="dropdownDefaultButton">
+        <ul v-if="showDropdown" class="absolute z-10 text-black bg-white rounded-lg shadow w-44 top-full mt-2 right-0 " aria-labelledby="dropdownDefaultButton">
             <li>
                 <a href="/adminPanel" class="block px-4 py-2 hover:bg-gray-100">
                     Tus productos

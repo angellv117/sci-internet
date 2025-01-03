@@ -5,8 +5,8 @@
     </h1>
 
     <div class="overflow-x-auto mt-3 gap-4 mb-4">
-        <table id="search-tableLabs" class="min-w-full text-sm text-left text-gray-500 dark:text-gray-400">
-            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <table id="search-tableLabs" class="min-w-full text-sm text-left text-gray-500 ">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 ">
                 <tr>
                     <th scope="col" class="px-6 py-3">Nombre</th>
                     <th scope="col" class="px-6 py-3">Precio</th>
@@ -14,7 +14,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="producto in productos" class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <tr v-for="producto in productos" class="bg-white border-b  hover:bg-gray-50 ">
                     <th scope="row" class="flex items-center px-4 py-2 font-medium text-gray-900 whitespace-pre-line">
                         <img :src="serverUrl + '/' + producto.imagen" class="w-auto h-8 mr-3">
                         {{ producto.nombre }}
